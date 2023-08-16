@@ -35257,8 +35257,8 @@ color: var(--cnvs-color) !important;
 
 .winter .add-to-cart{
   background: #1A4662 !important;
-
 }
+
 .winter .small span , .d{
   color: #1A4662 !important;
 }
@@ -35266,6 +35266,8 @@ color: var(--cnvs-color) !important;
   background:linear-gradient(#FFF7EC94, #FFF7EC94),url('images/auth-bg.png')
   !important;
   background-size: cover !important;
+  background-position: 100% 60% !important;
+
 }
 
 .summer  #header,.summer #header-wrap, .summer .sub-menu-container, .summer .mega-menu-content,.summer .sticky-header #header-wrap,.summer .top-cart-content,.summer .content-wrap,.summer .section{
@@ -35298,14 +35300,36 @@ background: #e34b71 !important;
 background: #dfad2e !important;
 }
 .fall .info-sec a{
-  background: #fff !important;
+  color: #fff !important;
 }
 
+.video-container{
+  height:70vh !important;
+  width: 100%;
+}
+.youtube-video{
+  width: 100%;
+}
 
-
+/* .fluid-width-video-wrapper{
+  height:70vh !important;
+  padding: 0 !important;
+}
+.ytp-large-play-button{
+  display: none !important;
+} */
+ .fluid-width-video-wrapper{
+/*   padding: 0 !important;
+ */  
+} 
 .spring #header:not(.sticky-header) .mobile-menu-off-canvas .menu-container , .fall #header:not(.sticky-header) .mobile-menu-off-canvas .menu-container , .summer #header:not(.sticky-header) .mobile-menu-off-canvas .menu-container{
   background: transparent;
 }
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
 
 
 /* 
