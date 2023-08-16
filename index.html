@@ -50,8 +50,11 @@
 		<header id="header" class="header-size-sm" data-sticky-shrink="false" style="border-color: var(--cnvs-color);">
 			<div class="container">
 				<div class="header-row justify-content-lg-between">
+					<div id="logo" class="col-lg-2">
+						<a class="color" href="#"><img src="images/eason.logo.png" class="p-2" alt=""></a>
+					</div>
 
-					<nav class="primary-menu top-primary-menu col-lg-5 order-last order-lg-first mobile-menu-off-canvas">
+					<nav class="primary-menu top-primary-menu col-lg-5 mobile-menu-off-canvas justify-content-start">
 
 						<ul class="menu-container">
 							<li class="menu-item current"><a class="menu-link" href="index.html"><div>Home</div></a></li>
@@ -61,16 +64,9 @@
 						</ul>
 
 					</nav><!-- #primary-menu end -->
-
-					 <!-- Logo
-					============================================= -->
-					<div id="logo" class="mx-lg-auto col-lg-2 justify-content-center">
-						<a class="color fst-italic" href="#"><img src="images/eason.logo.png" class="p-2" alt=""></a>
-					</div><!-- #logo end -->
-
-					<div class="col-lg-5 d-flex justify-content-end">
+				
+					<div class="col-lg-5 d-flex justify-content-between">
 						<div class="header-misc">
-
 							<nav class="primary-menu top-primary-menu me-2 d-none d-lg-block">
 								<ul class="menu-container">
 									<li class="menu-item"><a class="menu-link" href="season-contact.html"><div>Track Your Order</div></a></li>
@@ -80,7 +76,7 @@
 							<div class="primary-menu-trigger" data-target=".top-primary-menu">
 								<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
 								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
-							</button>
+						    	</button>
 							</div>
 
 							 <!-- Top Account
@@ -93,7 +89,9 @@
 							<!-- Top Cart
 							============================================= -->
 							<div id="top-cart" class="header-misc-icon me-lg-4">
+								
 								<a href="#" id="top-cart-trigger"><img src="demos/skincare/images/icons/cart.png" alt=""></a>
+
 								<div class="top-cart-content">
 									<div class="top-cart-title">
 										<h4 class="ls-0 text-transform-none">Shopping Cart</h4>
@@ -153,6 +151,8 @@
 
 						</div>
 					</div>
+
+					
 
 					<form class="top-search-form" action="search.html" method="get">
 						<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
@@ -991,40 +991,31 @@
 				  <div class="col-md-8">
   
 					<div class="sec-grid">
-						<div class="image-container main-img-1">
-							<img src="demos/skincare/images/new/Marketing-Photo-Winter-1.jpg" class="main-img img-1 " alt="Image 1">
+						<a href="season-product-winter.html" class="image-container main-img-1">
+							<img src="images/home-sec2/Marketing-Photo-Winter-1.jpg" class="main-img img-1 " alt="Image 1">
 							<div class="hover-content content1">
-							  <img src="demos/skincare/images/slider/new-img/010.jpg" alt="Hover Image 1">
-<!-- 							  <h3 class="text-center text-white">Winter</h3>
- -->							</div>
-						  </div>
-						  <div class="image-container main-img-2">
-							<img src="demos/skincare/images/new/Marketing-Photo-Summer-1.jpg" class="main-img img-2" alt="Image 4">
+							  <img src="images/home-sec2/Top_Left.jpg" alt="Hover Image 1">
+							</div>
+						  </a>
+						  <a href="season-product-summer.html" class="image-container main-img-2">
+							<img src="images/home-sec2/Marketing-Photo-Summer-1.jpg" class="main-img img-2" alt="Image 4">
 							<div class="hover-content content2">
-							  <img src="demos/skincare/images/slider/new-img/09.jpg" alt="Hover Image 4">
-<!-- 							  <h3 class="text-center text-white">Summer</h3>
- -->						</div>
-						  </div>
-						  <div class="image-container main-img-3">
-							<img src="demos/skincare/images/new/Marketing-Photo-Autumn-2.jpg" class="main-img img-3" alt="Image 4">
+							  <img src="images/home-sec2/Top_Right.jpg" alt="Hover Image 4">
+						</div>
+						  </a>
+						  <a href="season-product-spring.html" class="image-container main-img-3">
+							<img src="images/home-sec2/Marketing-Photo-Autumn-2.jpg" class="main-img img-3" alt="Image 4">
 							<div class="hover-content content3">
-							<!--   <h3 class="text-center text-white">Autamn</h3> -->
-							  <img src="demos/skincare/images/slider/new-img/09.jpg" alt="Hover Image 4">
-
+							  <img src="images/home-sec2/Bottom_Left.jpg" alt="Hover Image 4">
 							</div>
-						  </div>
-						  <div class="image-container main-img-4">
-							<img src="demos/skincare/images/new/Marketing-Photo-Spring-2.jpg" class="main-img img-4" alt="Image 4">
+						  </a>
+						  <a href="season-product-fall.html" class="image-container main-img-4">
+							<img src="images/home-sec2/Marketing-Photo-Spring-2.jpg" class="main-img img-4" alt="Image 4">
 							<div class="hover-content content4">
-<!-- 							  <h3 class="text-center text-white">Spring</h3>
- -->							  <img src="demos/skincare/images/slider/new-img/09.jpg" alt="Hover Image 4">
-
+							  <img src="images/home-sec2/Bottom_Right.jpg" alt="Hover Image 4">
 							</div>
-						  </div>
+						  </a>
 					</div>
-
-
-
 				
 				  </div>
 				</div>
@@ -1069,25 +1060,7 @@
 									</figcaption>			
 								</figure>
 							</div>
-							
-							
-							<!-- <div class="col-md-6">
-								<div class="overflow-hidden position-relative dark ">
-									<div>
-										<img src="demos/skincare/images/slider/new-img/01.jpg" alt="...">
-									</div>									
-								</div>
-							</div>
-							<div class="col-md-6">
-
-								<div class="overflow-hidden position-relative dark ">
-
-									<div>
-										<img src="demos/skincare/images/slider/new-img/04.jpg" alt="...">
-									</div>
-
-								</div>
-							</div> -->
+						
 						</div>
 					</div>
 				</div>
@@ -1107,6 +1080,22 @@
 								<li class="nav-item" role="presentation">
 									<button class="nav-link" id="canvas-contact-tab" data-bs-toggle="pill" data-bs-target="#contact2" type="button"
 										role="tab" aria-controls="canvas-contact" aria-selected="false">BEST SELLER</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="canvas-contact-tab" data-bs-toggle="pill" data-bs-target="#home2" type="button"
+										role="tab" aria-controls="canvas-contact" aria-selected="false">Winter</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="canvas-contact-tab" data-bs-toggle="pill" data-bs-target="#home2" type="button"
+										role="tab" aria-controls="canvas-contact" aria-selected="false">Spring</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="canvas-contact-tab" data-bs-toggle="pill" data-bs-target="#home2" type="button"
+										role="tab" aria-controls="canvas-contact" aria-selected="false">Summer</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="canvas-contact-tab" data-bs-toggle="pill" data-bs-target="#home2" type="button"
+										role="tab" aria-controls="canvas-contact" aria-selected="false">Autumn</button>
 								</li>
 							</ul>
 	

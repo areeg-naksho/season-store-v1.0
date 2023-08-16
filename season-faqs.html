@@ -44,13 +44,16 @@
 			</div>
 		</div>
 
-		<!-- Header
+	<!-- Header
 		============================================= -->
 		<header id="header" class="header-size-sm" data-sticky-shrink="false" style="border-color: var(--cnvs-color);">
 			<div class="container">
 				<div class="header-row justify-content-lg-between">
+					<div id="logo" class="col-lg-2">
+						<a class="color" href="#"><img src="images/eason.logo.png" class="p-2" alt=""></a>
+					</div>
 
-					<nav class="primary-menu top-primary-menu col-lg-5 order-last order-lg-first mobile-menu-off-canvas">
+					<nav class="primary-menu top-primary-menu col-lg-5 mobile-menu-off-canvas justify-content-start">
 
 						<ul class="menu-container">
 							<li class="menu-item current"><a class="menu-link" href="index.html"><div>Home</div></a></li>
@@ -60,16 +63,9 @@
 						</ul>
 
 					</nav><!-- #primary-menu end -->
-
-					 <!-- Logo
-					============================================= -->
-					<div id="logo" class="mx-lg-auto col-lg-2 justify-content-center">
-						<a class="color fst-italic" href="#"><img src="images/eason.logo.png" class="p-2" alt=""></a>
-					</div><!-- #logo end -->
-
-					<div class="col-lg-5 d-flex justify-content-end">
+				
+					<div class="col-lg-5 d-flex justify-content-between">
 						<div class="header-misc">
-
 							<nav class="primary-menu top-primary-menu me-2 d-none d-lg-block">
 								<ul class="menu-container">
 									<li class="menu-item"><a class="menu-link" href="season-contact.html"><div>Track Your Order</div></a></li>
@@ -79,7 +75,7 @@
 							<div class="primary-menu-trigger" data-target=".top-primary-menu">
 								<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
 								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
-							</button>
+						    	</button>
 							</div>
 
 							 <!-- Top Account
@@ -92,7 +88,9 @@
 							<!-- Top Cart
 							============================================= -->
 							<div id="top-cart" class="header-misc-icon me-lg-4">
+								
 								<a href="#" id="top-cart-trigger"><img src="demos/skincare/images/icons/cart.png" alt=""></a>
+
 								<div class="top-cart-content">
 									<div class="top-cart-title">
 										<h4 class="ls-0 text-transform-none">Shopping Cart</h4>
@@ -152,6 +150,8 @@
 
 						</div>
 					</div>
+
+					
 
 					<form class="top-search-form" action="search.html" method="get">
 						<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">

@@ -16001,12 +16001,12 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
 }
 #logo img {
   display: block;
-  max-width: 100%;
+  max-width: 70%;
   max-height: 100%;
-  margin-left: auto;
-  margin-right: auto;
   transition: height 0.4s ease, padding 0.4s ease, margin 0.4s ease, opacity 0.3s ease;
 }
+
+
 @media (prefers-reduced-motion: reduce) {
   #logo img {
     transition: none;
@@ -35091,14 +35091,11 @@ position: relative;
 }
 
 
-
-
-
 .canvas-tabs .nav-link, .canvas-tabs.nav-tabs .nav-link{
 background: transparent;
 border: 0;
 font-family: var(--cnvs-primary-font);
-font-size: 2.3rem;
+font-size: 1.3rem;
 font-weight: 400;
 }
 .nav-tabs{
@@ -35114,7 +35111,6 @@ border-left: 0;
 .img-hover-in, .img-hover-in img, .product .product-image, .product .product-image img{
 border-radius: 0;
 }
-
 
 .info-sec a{
 color: var(--cnvs-color) !important;
@@ -35265,5 +35261,63 @@ color: var(--cnvs-color) !important;
 }
 .winter .small span , .d{
   color: #1A4662 !important;
-
 }
+.login-bg{
+  background:linear-gradient(#FFF7EC94, #FFF7EC94),url('images/auth-bg.png')
+  !important;
+  background-size: cover !important;
+}
+
+.summer  #header,.summer #header-wrap, .summer .sub-menu-container, .summer .mega-menu-content,.summer .sticky-header #header-wrap,.summer .top-cart-content,.summer .content-wrap,.summer .section{
+background: #71d5e550 !important;
+}
+
+.summer #top-bar , .summer .bg-color{
+background: #eabf8a !important;
+}
+.summer .info-sec a{
+  color: #fff !important;
+}
+
+.spring  #header,.spring #header-wrap, .spring .sub-menu-container, .spring .mega-menu-content,.spring .sticky-header #header-wrap,.spring .top-cart-content,.spring .content-wrap,.spring .section{
+  background: #f1aead50 !important;
+  }
+
+.spring #top-bar , .spring .bg-color {
+background: #e34b71 !important;
+}
+.spring .info-sec a{
+  color: #fff !important;
+}
+
+
+.fall  #header,.fall #header-wrap, .fall .sub-menu-container, .fall .mega-menu-content,.fall .sticky-header #header-wrap,.fall .top-cart-content,.fall .content-wrap,.fall .section{
+  background: #dfad2e50 !important;
+  }
+.fall #top-bar , .fall .bg-color {
+background: #dfad2e !important;
+}
+.fall .info-sec a{
+  background: #fff !important;
+}
+
+
+
+.spring #header:not(.sticky-header) .mobile-menu-off-canvas .menu-container , .fall #header:not(.sticky-header) .mobile-menu-off-canvas .menu-container , .summer #header:not(.sticky-header) .mobile-menu-off-canvas .menu-container{
+  background: transparent;
+}
+
+
+/* 
+autumn 
+#808b2c Autumn green 
+#dfad2e  Autumn yellow
+summer 
+#71d5e5 summer sea blue
+#eabf8a summer sea sand
+
+spring 
+#73a331 Spring light green
+#f7b0c1 Spring barbie pink
+
+*/
